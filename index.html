@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Salma - your personal blog</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container _container">
+            <div class="header__logo">
+                <a href="#" class="logo__link">
+                    <img src="./img/logo.png" alt="salma logo" class="logo-img">
+                </a>
+            </div>
+            <nav class="header__navbar navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#home">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#shop">Shop</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#about" class="navbar__link">About</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#journal" class="navbar__link">Journal</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#contacts" class="navbar__link">Contact</a>
+                    </li>
+                    <li class="navbar__item navbar__item_basket basket">
+                        <a href="" class="navbar__link">
+                            <div class="basket__wrapper">
+                                <img src="./img/basket.png" alt="basket icon" class="basket__icon">
+                                <div class="basket__amount">0</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="content _container">
+            <div class="content__catalog catalog" id="home">
+                <div class="catalog__img-wrapper">
+                    <img src="./img/big-pic-1.png" alt="a mulato girl in a green coat" class="catalog__img">
+                </div>
+                <div class="catalog__desc">
+                    <div class="catalog__text">Eco-Relax. Made with 100% GOTS</div>
+                    <h1 class="catalog__header">Organic cotton, free from harmful substances.</h1>
+                    <button class="catalog__show-btn button">Shop the Collection</button>
+                </div>
+            </div>
+            <div class="content__shop-block shop-block" id="shop">
+                <div class="shop-block__pic-wrapper shop-block__pic-wrapper-left">
+                    <img src="./img/big-pic-2.png" alt="black girl with afro braids"
+                        class="shop-block__img shop-block__img-left">
+                    <div class="shop-block__desc shop-block__desc_left-side">
+                        <h1 class="shop-block__header">Shop New in</h1>
+                        <a href="#" class="shop-block__link">Shop now</a>
+                    </div>
+                </div>
+                <div class="shop-block__pic-wrapper shop-block__pic-wrapper-right">
+                    <img src="./img/big-pic-3.png" alt="black girl with afro braids"
+                        class="shop-block__img shop-block__img-right">
+                    <div class="shop-block__desc shop-block__desc_right-side">
+                        <h1 class="shop-block__header">Shop Bestsellers</h1>
+                        <a href="#" class="shop-block__link">Shop now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content__about about" id="about">
+                <p class="about__desc">Shop hundreds of enamel pins from artists. The best cool pin badges to decorate
+                    your backpack, denim jean jacket, lapel, and festival hat for sale in our online store.
+                </p>
+                <div class="about__features features">
+                    <div class="features__item">
+                        <div class="features__number">1</div>
+                        <h2 class="features__header">Cruelty Free</h2>
+                        <p class="features__desc">Free digital proofs and best design advice</p>
+                    </div>
+                    <div class="features__item">
+                        <div class="features__number">2</div>
+                        <h2 class="features__header">Cruelty Free</h2>
+                        <p class="features__desc">Free digital proofs and best design advice</p>
+                    </div>
+                    <div class="features__item">
+                        <div class="features__number">3</div>
+                        <h2 class="features__header">Cruelty Free</h2>
+                        <p class="features__desc">Free digital proofs and best design advice</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content__goods goods" id="journal">
+                <div class="goods__item">
+                    <div class="goods__img-wrapper">
+                        <img src="./img/bottle-1.png" alt="Hard BOILED Egg and Avocado" class="goods__img">
+                    </div>
+                    <div class="goods__desc">
+                        <p class="goods__name">Hard BOILED Egg and Avocado</p>
+                        <div class="goods__prices">
+                            <p class="goods__price-tag">$ 7.99 USD</p>
+                            <p class="goods__price-tag">$ 5.00 USD</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods__item">
+                    <div class="goods__img-wrapper">
+                        <img src="./img/bottle-2.png" alt="BOMB! Enamel Pin" class="goods__img">
+                    </div>
+                    <div class="goods__desc">
+                        <p class="goods__name">BOMB! Enamel Pin</p>
+                        <div class="goods__prices">
+                            <p class="goods__price-tag">$ 7.12 USD</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods__item">
+                    <div class="goods__img-wrapper goods__img-wrapper_last">
+                        <img src="./img/bottle-3.png" alt="Pineapple Charm Pendant" class="goods__img">
+                    </div>
+                    <div class="goods__desc">
+                        <p class="goods__name">Pineapple Charm Pendant</p>
+                        <div class="goods__prices">
+                            <p class="goods__price-tag">$ 9.99 USD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content__steps-block steps-block">
+                <div class="steps-block__header">
+                    From our powerhouse to your house.
+                </div>
+                <p class="steps-block__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique.
+                </p>
+                <div class="steps-block__items-wrapper">
+                    <div class="steps-block__item">
+                        <div class="steps-block__img-wrapper">
+                            <img src="./img/small-pic-1.png" alt="a girl watching a catalog wrap on her knees"
+                                class="steps-block__img">
+                            <div class="steps-block__number">1</div>
+                        </div>
+                        <p class="steps-block__instruction">
+                            Use this text to describe the first step...
+                        </p>
+                    </div>
+                    <div class="steps-block__item">
+                        <div class="steps-block__img-wrapper">
+                            <img src="./img/small-pic-2.png" alt="a girl watching a catalog wrap on her knees"
+                                class="steps-block__img">
+                            <div class="steps-block__number">2</div>
+                        </div>
+                        <p class="steps-block__instruction">
+                            ...the second step is following here...
+                        </p>
+                    </div>
+                    <div class="steps-block__item">
+                        <div class="steps-block__img-wrapper">
+                            <img src="./img/small-pic-3.png" alt="a girl watching a catalog wrap on her knees"
+                                class="steps-block__img">
+                            <div class="steps-block__number">3</div>
+                        </div>
+                        <p class="steps-block__instruction">
+                            ...aaand the third one...
+                        </p>
+                    </div>
+                    <div class="steps-block__item">
+                        <div class="steps-block__img-wrapper">
+                            <img src="./img/small-pic-4.png" alt="a girl watching a catalog wrap on her knees"
+                                class="steps-block__img">
+                            <div class="steps-block__number">4</div>
+                        </div>
+                        <p class="steps-block__instruction">
+                            ...This is the last fourth step of how it works.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="content__reviews reviews">
+                <h2 class="reviews__header">Get the rest of the story</h2>
+                <div class="reviews__main-review">
+                    <div class="rewiews__img-wrapper">
+                        <img src="./img/review-pic-1.png" alt="an example of a product usage" class="reviews__img">
+                    </div>
+                    <div class="reviews__main-review-desc main-review-desc">
+                        <h3 class="main-review-desc__header">star star star star star</h3>
+                        <p class="main-review-desc__text">“Best templates and support out there! They are always happy
+                            to help with any issues you may be having or even just showing how to edit things.”</p>
+                        <p class="main-review-desc__name">Sam (Trustpilot)</p>
+                    </div>
+                </div>
+                <div class="reviews__companies-rev">
+                    <div class="reviews__item">
+                        <img src="./img/review-1.png" alt="cleo logo" class="reviews__item-img">
+                        <p class="reviews__desc">“Great communication and help from him. Thank you.”</p>
+                    </div>
+                    <div class="reviews__item">
+                        <img src="./img/review-2.png" alt="arial logo" class="reviews__item-img">
+                        <p class="reviews__desc">"Best templates & support out there!"</p>
+                    </div>
+                    <div class="reviews__item">
+                        <img src="./img/review-3.png" alt="walden logo" class="reviews__item-img">
+                        <p class="reviews__desc">“Fantastic designer... but above all great people"</p>
+                    </div>
+                    <div class="reviews__item">
+                        <img src="./img/review-4.png" alt="petsplay logo" class="reviews__item-img">
+                        <p class="reviews__desc">“Great communication with detailed screen shots.”</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content__get-started get-started">
+                <div class="get-started__picture-block">
+                    <h2 class="get-started__header">
+                        A personal commerce expert at your fingertips
+                    </h2>
+                    <img src="./img/get-started.png" alt="two girls in jackets nearby a bridge" class="get-started_img">
+                </div>
+                <div class="get-started__desc">
+                    <p class="get-started__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                        elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo
+                        diam libero vitae erat.
+                    </p>
+                    <button class="button button_get-started">Get started</button>
+                </div>
+            </div>
+            <div class="content__faq faq">
+                <div class="faq__small-header-wrapper">
+                    <div class="faq__line"></div>
+                    <h3 class="faq__small-header">
+                        YOU HAVE QUESTIONS
+                    </h3>
+                </div>
+                <h1 class="faq__header">
+                    We’ve got answers.
+                </h1>
+                <div class="faq__questions-wrapper">
+                    <div class="faq__empty-side"></div>
+                    <div class="faq__questions">
+                        <div class="faq__item-wrapper">
+                            <div class="faq__item">
+                                <div class="faq__number">
+                                    01
+                                </div>
+                                <p class="faq__text">
+                                    Do you offer educational discounts?
+                                </p>
+                            </div>
+                            <button class="faq__add-button">add</button>
+                        </div>
+                        <div class="faq__item-wrapper">
+                            <div class="faq__item">
+                                <div class="faq__number">
+                                    02
+                                </div>
+                                <p class="faq__text">
+                                    Which payment methods do you accept?
+                                </p>
+                            </div>
+                            <button class="faq__add-button">add</button>
+                        </div>
+                        <div class="faq__item-wrapper">
+                            <div class="faq__item">
+                                <div class="faq__number">
+                                    03
+                                </div>
+                                <p class="faq__text">
+                                    I have a license. Can I switch to a subscription?
+                                </p>
+                            </div>
+                            <button class="faq__add-button">add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq__trial">
+                    <button class="faq__button button">Start free trial</button>
+                    <p class="faq__trial-desc">30 day trial lorem ipsum dolor.</p>
+                </div>
+            </div>
+            <div class="content__inst inst">
+                <div class="inst__header-wrapper">
+                    <h2 class="inst__header">
+                        Follow <a class="inst__highlight" href="#">@salma</a> on Instagram
+                    </h2>
+                    <button class="inst__button button">
+                        Follow @salma
+                    </button>
+                </div>
+                <div class="inst__posts">
+                    <div class="inst__item">
+                        <img src="./img/inst-1.png" alt="black girl with afro braids" class="inst__img">
+                        <p class="inst__desc">This is some text from your @instagram feed.</p>
+                    </div>
+                    <div class="inst__item">
+                        <img src="./img/inst-2.png" alt="a girl in an orange suit" class="inst__img">
+                        <p class="inst__desc">This is some text from your @instagram feed.</p>
+                    </div>
+                    <div class="inst__item">
+                        <img src="./img/inst-3.png" alt="black girl in a white shirt" class="inst__img">
+                        <p class="inst__desc">This is some text from your @instagram feed.</p>
+                    </div>
+                    <div class="inst__item">
+                        <img src="./img/inst-4.png" alt="two girls in front of the rocks" class="inst__img">
+                        <p class="inst__desc">This is some text from your @instagram feed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content__navigation navigation _container">
+                <div class="navigation__mailing-list">
+                    <h2 class="navigation__header">
+                        Sign up for email newsletters from SALMA!
+                    </h2>
+                    <p class="navigation__privacy">
+                        To learn how we process your data, visit our <a href="#"
+                            class="navigation__link navigation__link_privacy-notice">Privacy Notice</a>. You can <a
+                            href="#" class="navigation__link navigation__link_unsub">unsubscribe</a> at any time without
+                        costs.
+                    </p>
+                </div>
+                <div class="navigation__links links">
+                    <h3 class="links__header">
+                        Social Links
+                    </h3>
+                    <div class="links__wrapper">
+                        <ul class="links__list">
+                            <li class="links__item links__item_item-heading"><a href="#"
+                                    class="links__link links__link_list-heading">Shop</a></li>
+                            <li class="links__item"><a href="#" class="links__link">All products</a></li>
+                            <li class="links__item"><a href="#" class="links__link">Fruit</a></li>
+                            <li class="links__item"><a href="#" class="links__link">Custom</a></li>
+                            <li class="links__item"><a href="#" class="links__link">Cute</a></li>
+                        </ul>
+                        <ul class="links__list">
+                            <li class="links__item links__item_item-heading"><a href="#"
+                                    class="links__link links__link_list-heading">Learn</a>
+                            </li>
+                            <li class="links__item"><a href="#" class="links__link">Home</a></li>
+                            <li class="links__item"><a href="#" class="links__link">Shop</a></li>
+                            <li class="links__item"><a href="#" class="links__link">About us</a></li>
+                            <li class="links__item"><a href="#" class="links__link">Journal</a></li>
+                            <li class="links__item"><a href="#" class="links__link">FAQ</a></li>
+                            <li class="links__item"><a href="#" class="links__link">Contact</a></li>
+                        </ul>
+                        <ul class="links__list">
+                            <li class="links__item links__item_item-heading"><a href="#"
+                                    class="links__link links__link_list-heading">Template</a></li>
+                            <li class="links__item"><a href="#" class="links__link">Style Guide</a></li>
+                            <li class="links__item"><a href="#" class="links__link">Instructions</a></li>
+                            <li class="links__item"><a href="#" class="links__link">Licensing</a></li>
+                            <li class="links__item"><a href="#" class="links__link">Changelog</a></li>
+                            <li class="links__item"><a href="#" class="links__link">More Templates</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content__contacts contacts" id="contacts">
+                <div class="contacts__item">
+                    <div class="contacts__img-wrapper">
+                        <img src="./img/contacts-1.svg" alt="email" class="contacts__img">
+                    </div>
+                    <p class="contacts__icon-desc">email</p>
+                    <p class="contacts__text">hello@template.com</p>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__img-wrapper">
+                        <img src="./img/contacts-2.svg" alt="showroom" class="contacts__img">
+                    </div>
+                    <p class="contacts__icon-desc">showroom</p>
+                    <p class="contacts__text">Prinzregentenstrasse 1 80538 Munich · Germany</p>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__img-wrapper">
+                        <img src="./img/contacts-3.svg" alt="phone" class="contacts__img">
+                    </div>
+                    <p class="contacts__icon-desc">phone</p>
+                    <p class="contacts__text">+49·34·376·839·0</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__payment-background">
+            <div class="footer__payment payment _container">
+                <div class="payment__logo-wrapper">
+                    <img src="./img/star.png" alt="green star logo" class="payment__logo-img">
+                    <img src="./img/trustpilot.svg" alt="trustpilot" class="payment__logo-vector">
+                    <p class="payment__rate-info">Rating on Trustpilot 4.75 · 5</p>
+                </div>
+                <div class="payment__methods">
+                    <img src="./img/google.png" alt="google pay logo" class="payment__item payment__item_google-pay">
+                    <p class="payment__dot">·</p>
+                    <img src="./img/apple-pay.png" alt="apple pay" class="payment__item payment__item_apple-pay">
+                    <p class="payment__dot">·</p>
+                    <img src="./img/paypal.png" alt="paypal" class="payment__item payment__item_apple-pay">
+                </div>
+            </div>
+        </div>
+        <div class="footer__templates-background">
+            <div class="footer__templates templates _container">
+                <p class="templates__text">All template Demos:</p>
+                <ul class="templates__list">
+                    <li class="templates__item"><a href="#" class="templates__link">Home #1</a></li>
+                    <li class="templates__item"><a href="#" class="templates__link">Home #2</a></li>
+                    <li class="templates__item"><a href="#" class="templates__link">Home #3</a></li>
+                </ul>
+                <ul class="templates__list">
+                    <li class="templates__item"><a href="#" class="templates__link">About #1</a></li>
+                    <li class="templates__item"><a href="#" class="templates__link">About #2</a></li>
+                    <li class="templates__item"><a href="#" class="templates__link">About #3</a></li>
+                </ul>
+                <ul class="templates__list">
+                    <li class="templates__item"><a href="#" class="templates__link">Contact #1</a></li>
+                    <li class="templates__item"><a href="#" class="templates__link">Contact #2</a></li>
+                    <li class="templates__item"><a href="#" class="templates__link">Contact #3</a></li>
+                </ul>
+                <ul class="templates__list">
+                    <li class="templates__item"><a href="#" class="templates__link">Shop</a></li>
+                    <li class="templates__item"><a href="#" class="templates__link">Reviews</a></li>
+                    <li class="templates__item"><a href="#" class="templates__link">FAQ</a></li>
+                </ul>
+                <ul class="templates__list">
+                    <li class="templates__item"><a href="#" class="templates__link">CMS Blog Post</a></li>
+                    <li class="templates__item"><a href="#" class="templates__link">CMS Team Member</a></li>
+                    <li class="templates__item"><a href="#" class="templates__link">Ecommerce Products Detail</a></li>
+                </ul>
+                <button class="templates__button">
+                    <a href="#" class="templates__button-link">Buy Template • $129</a>
+                </button>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
